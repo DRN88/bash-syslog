@@ -5,3 +5,10 @@ Based on: http://blog.hellosa.org/2013/07/27/log-bash-history-to-syslog-on-cento
 ### How To
 
 Edit the script variables to your needs.  
+
+#### Edit '/etc/rsyslog.conf' to test
+
+Add the following line:  
+```
+local1.debug                                            /var/log/secure
+```
